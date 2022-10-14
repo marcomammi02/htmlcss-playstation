@@ -26,14 +26,15 @@ body{
     position: static;
 }
 
-.dropdown-menu{
+.dropdown-menu{  /* bootstrap class */
     border: none;
 }
 
-.dropdown-menu.show{
+.dropdown-menu.show{  /* bootstrap class */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 0;
 }
 
 .s_dropdown_blu_circle{
@@ -56,7 +57,7 @@ body{
     
 }
 
-.s_bnt_slide_section{
+.s_btn_slide_section{
     background-color: #CD3D0F;
     color: #FFFFFF;
 }
@@ -78,3 +79,13 @@ body{
 .s_bottom_subtitle{
     color: #909090;
 }
+
+
+/* ps5 slide */
+.s_btn_ps5_slide{
+    background-color: #0070D1;
+    color: #FFFFFF;
+    width: fit-content;
+}
+
+
