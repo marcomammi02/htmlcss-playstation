@@ -67,3 +67,14 @@ body{
     border: 3px solid #0070D1;
     padding: 2px;
 }
+
+
+/* ps5 text */
+.s_top_subtitle{
+    font-size: .8rem;
+    color: #0070D1;
+}
+
+.s_bottom_subtitle{
+    color: #909090;
+}
