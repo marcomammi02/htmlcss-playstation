@@ -48,5 +48,15 @@ body{
 .s_slide_section{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    position: relative;
+    background-position: top;
+}
+
+.s_returnal_margin{
+    margin-top: 200px;
+    
+}
+
+.s_bnt_slide_section{
+    background-color: #CD3D0F;
+    color: #FFFFFF;
 }
