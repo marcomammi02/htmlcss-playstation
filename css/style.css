@@ -60,3 +60,10 @@ body{
     background-color: #CD3D0F;
     color: #FFFFFF;
 }
+
+
+/* img slider */
+.s_img_slider .s_img_selected{
+    border: 3px solid #0070D1;
+    padding: 2px;
+}
