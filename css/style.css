@@ -2,6 +2,51 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.s_button{
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+
+/* header */
+.s_sony_bar{
+    background-color: #000000;
+}
+
 .s_sony_bar img{
     width: 5rem;
+}
+
+.s_btn_navbar{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.nav-item.dropdown{  /* bootstrap class */
+    position: static;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown-menu.show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s_dropdown_blu_circle{
+    width: 10px;
+    height: 10px;
+    background-color: #0070D1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* slides section */
+.s_slide_section{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    position: relative;
 }
