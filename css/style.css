@@ -89,3 +89,19 @@ body{
 }
 
 
+/* ps5 img slider */
+.s_ps5_img_slider .s_img_selected{
+    border-bottom: 3px solid #0070D1;
+}
+
+.s_img_not_selected{
+    filter: opacity(.5);
+}
+
+
+/* it takes two section */
+.s_it_takes_two_section{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: top;
+}
