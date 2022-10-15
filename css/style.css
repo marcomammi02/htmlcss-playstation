@@ -105,3 +105,9 @@ body{
     background-size: cover;
     background-position: top;
 }
+
+
+/* new games section */
+.s_new_games_section{
+    background-color: #1F1F1F;
+}
