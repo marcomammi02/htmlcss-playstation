@@ -8,6 +8,11 @@ body{
     width: fit-content;
 }
 
+.s_button:hover{
+    border-style: double;
+    padding: 2px 7px;
+}
+
 
 /* header */
 .s_sony_bar{
@@ -31,11 +36,24 @@ body{
     border: none;
 }
 
+.nav-link:hover{
+    color: #000000;
+}
+
 .dropdown-menu.show{  /* bootstrap class */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 0;
+}
+
+.dropdown-menu .s_ps_icon:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dropdown-menu .s_support_link:hover{
+    color: #0070D1;
+    background-color: transparent;
 }
 
 .s_dropdown_blu_circle{
@@ -61,6 +79,7 @@ body{
 .s_btn_slide_section{
     background-color: #CD3D0F;
     color: #FFFFFF;
+    border-color: #000000;
 }
 
 
@@ -68,6 +87,14 @@ body{
 .s_img_slider .s_img_selected{
     border: 3px solid #0070D1;
     padding: 2px;
+}
+
+.s_img_slider .s_img_not_selected{
+    border: 5px solid #FFFFFF;
+}
+
+.s_img_slider .col:hover{
+    margin-top: 5px;
 }
 
 
@@ -94,10 +121,18 @@ body{
     border-bottom: 3px solid #0070D1;
 }
 
-.s_img_not_selected{
+.s_ps5_img_slider .s_img_not_selected{
     filter: opacity(.5);
 }
 
+.s_ps5_img_slider hr{
+    border-top: none;
+}
+
+.s_ps5_img_slider .s_img_not_selected:hover{
+    filter: none;
+    border-bottom: 3px solid #0070D1;
+}
 
 /* it takes two section */
 .s_it_takes_two_section{
