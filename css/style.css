@@ -146,3 +146,18 @@ body{
     color: #909090;
     margin-bottom: 3rem;
 }
+
+
+/* ps now */
+.s_ps_now_section{
+    background-color: #161C3B;
+}
+
+.s_ps_now_section .s_ps_now_logo{
+    width: 60%;
+}
+
+.s_btn_ps_now{
+    color: #161C3B;
+    background-color: #FFFFFF;
+}
