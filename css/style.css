@@ -165,3 +165,40 @@ body{
     color: #161C3B;
     background-color: #FFFFFF;
 }
+
+
+/* footer */
+footer{
+    color: #FFFFFF;
+    background-color: #00439C;
+}
+
+.s_logo_footer{
+    max-width: 120px;
+}
+
+.s_country_img{
+    width: 5%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    line-height: 2rem;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .s_copyright img{
+    width: 20%;
+}
+
+footer .s_copyright_info{
+    color: #FFFFFF;
+    text-decoration: none;
+}
