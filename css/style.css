@@ -5,6 +5,7 @@ body{
 .s_button{
     padding: 5px 10px;
     border-radius: 30px;
+    width: fit-content;
 }
 
 
@@ -85,7 +86,6 @@ body{
 .s_btn_ps5_slide{
     background-color: #0070D1;
     color: #FFFFFF;
-    width: fit-content;
 }
 
 
@@ -123,4 +123,19 @@ body{
     color: #FFFFFF;
     background-color: #0070D1;
     width: fit-content;
+}
+
+
+/* ps plus */
+.s_ps_plus_section{
+    background-color: #BEBCBB;
+}
+
+.s_ps_plus_section .s_ps_plus_logo{
+    width: 60%;
+}
+
+.s_btn_ps_plus{
+    color: #0070D1;
+    background-color: #D9DADC;
 }
