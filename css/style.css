@@ -111,3 +111,16 @@ body{
 .s_new_games_section{
     background-color: #1F1F1F;
 }
+
+
+
+/* ps4 img */
+.s_ps4_img_section p{
+    color: #909090;
+}
+
+.s_btn_ps4_img{
+    color: #FFFFFF;
+    background-color: #0070D1;
+    width: fit-content;
+}
