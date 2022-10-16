@@ -139,3 +139,10 @@ body{
     color: #0070D1;
     background-color: #D9DADC;
 }
+
+
+/* ps store discounts */
+.s_ps_store_discounts_section p{
+    color: #909090;
+    margin-bottom: 3rem;
+}
